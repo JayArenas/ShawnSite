@@ -1,0 +1,42 @@
+/* 
+#about {
+    color: white;
+    background-color: #343a40;
+} */
+
+
+#about {
+    color: black;
+    background-color: white;
+}
+
+.container-fluid {
+    width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.has-img-bg {
+    background: url(../../../assets/aboutBG.jpeg) no-repeat center center;
+    background-size: cover;
+    padding: 0;
+    height: 500px;
+}
+
+.text-wrapper {
+    height: 500px;
+    align-items: center;
+}
+
+.text-container {
+    align-items: center;
+}
+
+/* TODO fix the positioning for mobile */

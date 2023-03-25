@@ -1,0 +1,28 @@
+
+  {
+    "services": [
+      {
+        "id": 1,
+        "price": "Free",
+        "img": "https://tinyurl.com/ydararhx",
+        "serviceName": "Consultation",
+        "serviceDescription": "Free consultation to figure out the your specific needs!"
+      },
+      {
+        "id": 2,
+        "price": "Call for price",
+        "img": "https://tinyurl.com/yd6c846v",
+        "serviceName": "Cleanout Service",
+        "serviceDescription": "We clean your home and make it presentable before sales!"
+       
+      },
+      {
+        "id": 3,
+        "price": "Call for price",
+        "img": "https://tinyurl.com/mt3rf7b",
+        "serviceName": "Set-Up",
+        "serviceDescription": "We professionally present your treasures for their new home!"
+      }
+    ]
+  }
+
