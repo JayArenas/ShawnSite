@@ -39,7 +39,7 @@ const EstateServices = (props) => {
   return (
     <div className="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
       <div className="service-content" id="pills-tabContent">
-        <h1 className="service-text">Services</h1>
+        <h1 className="service-text">Serviced</h1>
         <div
           className="service-pane fade show active"
           id="foods"
