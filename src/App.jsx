@@ -9,7 +9,6 @@ import DefaultLayout from "./layouts/defaultLayout";
 const loading = () => <div className="">loading...</div>;
 
 export default function App(props) {
-console.log("props from index.jsx---->", props);
 
   useEffect(() => {
     new WOW.WOW({

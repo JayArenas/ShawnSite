@@ -7,6 +7,7 @@ const Header = () => {
   const iconStyles = {
     color: "red" 
   }
+  
   return (
   <div className="header-container">
     <div className="overlay text-center">
