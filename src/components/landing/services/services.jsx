@@ -5,7 +5,7 @@ import "./servicesStyles.css";
 
 const EstateServices = (props) => {
   let jsonData = props.data.services;
-  console.log("jsonData props---->", jsonData);
+  
   const [cardInfo, setCardInfo] = useState({
     cards: {
       cardImage: "https://tinyurl.com/mt3rf7b",
@@ -25,7 +25,6 @@ const EstateServices = (props) => {
 
   useEffect(() => {
     let cards = jsonData;
-    console.log("useffect cards--->", cards);
     setCardInfo((prevState) => {
       let mappedCards = { ...prevState };
       mappedCards.cards.cardImage = cards.img;

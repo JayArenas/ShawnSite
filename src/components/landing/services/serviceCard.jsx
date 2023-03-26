@@ -4,7 +4,6 @@ import './servicesStyles.css';
 const ServiceCard = (props) => {
     let img  = props.card.img
     
-  console.log("serviceCard Render--->", props.card);
   return (
     <div className="col-md-4" >
       <div className="card bg-transparent my-3 my-md-0 service-card" key={props.card.id}>
