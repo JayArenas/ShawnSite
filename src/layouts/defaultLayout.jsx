@@ -6,7 +6,6 @@ const loading = () => <div className=''>loading...</div>
 
 
 const DefaultLayout = (props) => {
-    console.log("default layout props------>", props);
 
     return (
         <Suspense fallback={loading()}>

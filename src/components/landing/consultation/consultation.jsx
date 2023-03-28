@@ -45,6 +45,5 @@ const Consultation = () => {
   );
 };
 
-//TODO TRANSITION TO FORMIK!
 
 export default Consultation;
