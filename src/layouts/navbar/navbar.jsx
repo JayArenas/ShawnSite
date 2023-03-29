@@ -67,7 +67,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <a href="#Home" className="navbar-brand m-auto">
+        <a href="#home" className="navbar-brand m-auto">
           <img src={ShawnLogo} alt="I heart Estate Logo" className="brand-img" />
           
         </a>

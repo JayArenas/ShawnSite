@@ -1,18 +1,20 @@
 import React, { useEffect } from "react";
-import WOW from 'wowjs';
+import WOW from "wowjs";
 import "./aboutStyles.css";
 
-
 const About = () => {
-
   useEffect(() => {
     new WOW.WOW({
-      live: false
+      live: false,
     }).init();
-  }, [])
+  }, []);
 
   return (
-    <div className="container-fluid wow fadeIn" id="about" data-wow-duration="1.5s">
+    <div
+      className="container-fluid wow fadeIn"
+      id="about"
+      data-wow-duration="1.5s"
+    >
       <div className="row">
         <div className="col-lg-6 has-img-bg"></div>
         <div className="col-lg-6">
