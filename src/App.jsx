@@ -26,7 +26,7 @@ export default function App(props) {
         element={<routeData.element {...props}/>}
       />
     ),
-    []
+    [props]
   );
 
   const getMappedRoutes = useCallback(
