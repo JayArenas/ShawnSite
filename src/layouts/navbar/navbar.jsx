@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import ShawnLogo from '../../assets/shawnLogo.png';
-// import "./navbarStyles.css";
 import "./navbarStylesV2.css";
 
 export default function Navbar() {
